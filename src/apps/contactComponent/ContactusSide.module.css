@@ -1,0 +1,29 @@
+#conParent {
+  -webkit-border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #fff7d4;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.infoParent {
+  margin-top: 2rem;
+}
+
+.infoParent > ul > li {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  color: #222831;
+}
+
+@media only screen and (max-width: 600px) {
+  #conParent {
+    border-radius: 0;
+  }
+}

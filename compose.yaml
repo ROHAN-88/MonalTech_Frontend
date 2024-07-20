@@ -1,0 +1,11 @@
+services:
+ app:
+   image: monal-web-i
+   container_name: monal-portfolio-c
+   build:
+       context: .
+       dockerfile: Dockerfile
+   ports:
+     - "3000:3000"
+   environment: 
+     - NODE_ENV=production

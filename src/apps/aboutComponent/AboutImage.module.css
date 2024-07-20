@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.about-img {
+  width: 300px;
+  height: 300px;
+
+  /* border-radius: 45% 55% 47% 53% / 44% 18% 82% 56%;
+  background-size: contain;
+  border: 1px solid red; */
+}
